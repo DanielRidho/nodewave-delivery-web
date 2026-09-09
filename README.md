@@ -4,12 +4,10 @@ Responsive delivery dashboard for Product Managers, UI/UX, Frontend, Backend,
 and isolated Client Guest users. The interface consumes the NodeWave Delivery
 API and renders only the operations allowed by backend supplied permissions.
 
-- **Live application:** `<VERCEL_FRONTEND_URL>`
-- **Live API:** `<RAILWAY_BACKEND_URL>`
+- **Live application:** `<https://nodewave-delivery-web.vercel.app/>`
+- **Live API:** `<https://nodewave-delivery-api-production-f2a6.up.railway.app/>`
 - **Backend repository:**
   [DanielRidho/nodewave-delivery-api](https://github.com/DanielRidho/nodewave-delivery-api)
-
-Replace the two URL placeholders after deployment.
 
 ## Technology
 
@@ -119,5 +117,5 @@ NEXT_PUBLIC_BE_URL=https://nodewave-delivery-api-production-f2a6.up.railway.app/
 
 Redeploy after changing this value because `NEXT_PUBLIC_` variables are embedded
 during the Next.js build. Copy the final Vercel origin into the backend
-Railway service as `FRONTEND_URL`, without a trailing slash, and redeploy the
+Railway service as `https://nodewave-delivery-web.vercel.app/`, without a trailing slash, and redeploy the
 backend so its CORS policy accepts the live frontend.
