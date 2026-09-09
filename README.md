@@ -114,7 +114,7 @@ Import this repository in Vercel and configure the production environment
 variable:
 
 ```text
-NEXT_PUBLIC_BE_URL=https://YOUR-RAILWAY-DOMAIN/api
+NEXT_PUBLIC_BE_URL=https://nodewave-delivery-api-production-f2a6.up.railway.app/
 ```
 
 Redeploy after changing this value because `NEXT_PUBLIC_` variables are embedded
